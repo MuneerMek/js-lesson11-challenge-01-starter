@@ -48,6 +48,10 @@ const showPets = function (petArray) {
   }
 };
 
+statusButton.addEventListener("click", function () {
+  showPets(allPets);
+});
+
 // console.log(sora, clover, baxter, cleo, francine);
 // clover.sleep();
 // baxter.play();
