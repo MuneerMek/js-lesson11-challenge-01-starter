@@ -24,10 +24,13 @@ const createPet = function (name, species) {
 };
 
 const sora = createPet("Sora", "ferret");
-const clover = createPet("Clover", "rabbit");
+const clover = createPet("Clover", "rabbit", 8);
 const baxter = createPet("Baxter", "hamster");
 const cleo = createPet("Cleo", "rat");
-const francine = createPet("Francine", "turtle");
+const francine = createPet("Francine", "turtle", 9);
+const allPets = [sora, clover, baxter, cleo, francine];
+
+console.log(allPets);
 
 // console.log(sora, clover, baxter, cleo, francine);
 // clover.sleep();
